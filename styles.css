@@ -4,7 +4,7 @@ p {
 
 h1.site-title {
     text-align: center;
-    font-family: 'K2D', sans-serif;
+    font-family: 'Sriracha', sans-serif;
     font-weight: 500;
     padding-top: 25px;
 }
@@ -47,7 +47,7 @@ button.product-btn {
     background-color: #fff;
     border: 2px solid #000;
     color: #000;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'K2D', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 5px 10px;
