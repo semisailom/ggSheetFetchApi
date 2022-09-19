@@ -35,28 +35,18 @@ img.product-img {
     object-fit: cover;
     transition: all 0.3s ease-in-out;
     transform: scale(0.9);
-
-    
 }
 
 img.product-img:hover {
     transform: scale(0.95);
 }
 
-button.product-btn {
-    background-color: #fff;
-    border: 2px solid #000;
-    color: #000;
+button {
     font-family: 'K2D', sans-serif;
     font-size: 1.15rem;
     font-weight: 400;
     padding: 5px 10px;
     margin-top: 10px;
-    transition: all 0.3s ease-in-out;
-}
-button.product-btn:hover {
-    background-color: #000;
-    color: #fff;
 }
 
 
@@ -69,5 +59,4 @@ footer {
     padding: 25px 75px;
     border: solid 1px #000000;
     border-width: 1px 0;
-
 }
