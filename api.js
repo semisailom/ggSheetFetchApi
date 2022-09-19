@@ -1,17 +1,17 @@
-//Url del Google Sheets
-//const url = 'https://docs.google.com/spreadsheets/d/1kZcUs9kuis-yD5n3SHmMoxUT3lxK11hSc3AjZPPZY00/gviz/tq?';
+//Url to Google Sheets
+//const url = 'https://docs.google.com/spreadsheets/d/xxxx/gviz/tq?';
 const url = 'https://docs.google.com/spreadsheets/d/1qqcewCVPu3hTQTlgLBHbPWKJShlVnEiKu4ZdHLctPvc/gviz/tq?';
 const productsContainer = document.querySelector('.products-grid');
     fetch(url)
     .then(res => res.text())
     .then(response =>{
 
-        //Parseando el JSON
+        //Parsing the JSON
         const data = JSON.parse(response.substr(47).slice(0,-2));
         //consologeando el JSON
         console.log(data);
 
-        //Iterando sobre el JSON para crear los productos
+        //Iterating over the JSON to create the products
         data.table.rows.forEach(product => {
 
             const productCard = document.createElement('div');
@@ -33,4 +33,4 @@ const productsContainer = document.querySelector('.products-grid');
             productsContainer.appendChild(productCard);
         }
     );
-}).catch(error => console.log(error)); //catch error en caso de que no se pueda parsear el JSON
+}).catch(error => console.log(error)); //catch error in case the JSON cannot be parsed
