@@ -41,7 +41,7 @@ img.product-img:hover {
     transform: scale(0.95);
 }
 
-button.btn {
+button.btn-outline-dark {
     font-family: 'K2D', sans-serif;
     font-size: 1.15rem;
     font-weight: 400;
