@@ -25,7 +25,7 @@ const productsContainer = document.querySelector('.products-grid');
                     <h2 class="product-brand">Model: ${product.c[0].v}</h2>
                     <p class="product-text">Color: ${product.c[1].v}</p>
                     <p class="product-text">Year: ${product.c[3].v}</p>
-                    <a class="product-link" href="${product.c[5].v}">
+                    <a class="product-link" href="${product.c[5].v}" target="_blank">
                     <button type="button" class="btn btn-outline-dark">More...</button>
                     </a>
                 </div>
